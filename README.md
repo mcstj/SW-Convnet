@@ -13,9 +13,10 @@ PyWavelets 1.6.0
 
 The classification results of the original CNNs were used as the baseline, and these results were obtained from the official PyTorch 1.11+cuda11.3, platform  is ubuntu+python 3.8, the dependent software libraries include Kymatio 0.3 \cite{Kymatio}, Pywavelets 1.4.1\cite{Lee}.
 
-How to use
+# How to use
 You can import scattering and use it in your CNN
-```bash
+```markdown
+markdown
 from kymatio.torch import Scattering2D
 scattering1 = ScatteringTorch2D(J=J, shape=(224, 224), L=L_ang, max_order=max_order,backend='torch')
 scattering1 = nn.Sequential(scattering1, nn.Flatten(1, 2))
