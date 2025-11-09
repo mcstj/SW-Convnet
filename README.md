@@ -41,8 +41,11 @@ python validate.py --model resnet101_dwt \
                    --data IMAGENET_PATH \
                    --checkpoint resnet101_dwt_dmey_150.pth.tar
 ```
+
+
 # Acknowledgement
-The code for SW-Convnet, as well as the training and validating scripts, were adapted from the WaveCNet library.
+The code for SW-Convnet, as well as the training and validating scripts, were adapted from the ScatNet and WaveCNet library. 
+We thank Mallat group for offering access to the ScatNet software, and also would like to thank Dr. Qiufu Li for sharing the code of WaveCNet and providing valuable insights for troubleshooting.
 
 # License
 This project is released under the MIT license. Please see the LICENSE file for more information.
