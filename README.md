@@ -36,8 +36,14 @@ python main3.py --data  'root/autodl-tmp/imagenet' \
              --gpu 0 --lr 0.1 
 ```
 # Evaluating SW-Convnet on ImageNet-1k
+```markdown
 python validate.py --model resnet101_dwt \
                    --data IMAGENET_PATH \
                    --checkpoint resnet101_dwt_dmey_150.pth.tar
+```
+# Acknowledgement
+The code for SW-Convnet, as well as the training and validating scripts, were adapted from the WaveCNet library.
 
+# License
+This project is released under the MIT license. Please see the LICENSE file for more information.
 
