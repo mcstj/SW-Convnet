@@ -16,7 +16,7 @@ The classification results of the original CNNs were used as the baseline, and t
 # How to use
 You can import scattering and use it in your CNN
 ```markdown
-markdown
+```python
 from kymatio.torch import Scattering2D
 scattering1 = ScatteringTorch2D(J=J, shape=(224, 224), L=L_ang, max_order=max_order,backend='torch')
 scattering1 = nn.Sequential(scattering1, nn.Flatten(1, 2))
