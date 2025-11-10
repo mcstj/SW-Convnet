@@ -19,8 +19,8 @@ The classification results of the original CNNs were used as the baseline, and t
 
 # Datasets
 1,MNIST handwritten Number dataset, URL: http://yann.lecun.com/exdb/mnist/ \
-2,UCI colonoscopy medical image dataset, URL:http://www.depeca.uah.es/colonoscopy_dataset/\
-[1] Mesejo P, Pizarro D, Abergel A, et al. Computer-aided classification of gastrointestinal lesions in regular colonoscopy. IEEE transactions on medical imaging, 2016, 35(9): 2051-2063. \
+2,UCI colonoscopy medical image dataset, URL:http://www.depeca.uah.es/colonoscopy_dataset/ \
+  [1] Mesejo P, Pizarro D, Abergel A, et al. Computer-aided classification of gastrointestinal lesions in regular colonoscopy. IEEE transactions on medical imaging, 2016, 35(9): 2051-2063. \
 3,IMAGENET DATA, URL:https://image-net.org/download
 
 
