@@ -17,6 +17,13 @@ We trained the model for 90/120 epochs using the Stochastic Gradient Descent (SG
 
 The classification results of the original CNNs were used as the baseline, and these results were obtained from the official PyTorch 1.11+cuda11.3, platform  is ubuntu+python 3.8, the dependent software libraries include Kymatio 0.3 \cite{Kymatio}, Pywavelets 1.4.1\cite{Lee}.
 
+# Datasets
+1,MNIST handwritten Number dataset, URL: http://yann.lecun.com/exdb/mnist/ 
+2,UCI colonoscopy medical image dataset, URL:http://www.depeca.uah.es/colonoscopy_dataset/
+[1] Mesejo P, Pizarro D, Abergel A, et al. Computer-aided classification of gastrointestinal lesions in regular colonoscopy. IEEE transactions on medical imaging, 2016, 35(9): 2051-2063.
+3,IMAGENET DATA, URL:https://image-net.org/download
+
+
 # How to use
 You can import scattering and use it in your CNN
 ```markdown
