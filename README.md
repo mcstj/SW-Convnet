@@ -25,6 +25,10 @@ The classification results of the original CNNs were used as the baseline, and t
 
 
 # How to use
+if you use matlab, first you need to download MNIST and UCI dataset. \
+The main executive program in MATLAB is SW_Convnet_LeNet, which trains and tests on the MNIST and UCI datasets. You can run it directly in the MATLAB environment. The corresponding data is stored in a specified folder, and the data will be read from this folder during the data loading process.
+
+if you train IMAGENET, you need use Pytorch environment.
 You can import scattering and use it in your CNN
 ```markdown
 ```python
