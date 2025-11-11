@@ -8,14 +8,17 @@ We trained the model for 90/120 epochs using the Stochastic Gradient Descent (SG
 
 # Requirements
 - Python >=3.8 and <=3.12
-- PyWavelets 1.6.0
+- PyWavelets >=1.4.1 and <=1.6.0
 - PyTorch 1.10+（GPU version require CUDA 11.3+）
 - torchvision 0.11+
 - numpy >= 1.21.0
 - scipy >= 1.7.0
 - Kymatio >= 0.3
 
-The classification results of the original CNNs were used as the baseline, and these results were obtained from the official PyTorch 1.11+cuda11.3, platform  is ubuntu+python 3.8, the dependent software libraries include Kymatio 0.3 \cite{Kymatio}, Pywavelets 1.4.1\cite{Lee}.
+The classification results of the original CNNs were used as the baseline, and these results were obtained from the official PyTorch 1.11+cuda11.3, platform  is ubuntu+python 3.8, the dependent software libraries include Kymatio 0.3 [1], Pywavelets 1.4.1 [2]. \
+[1] Andreux M, Angles T, Exarchakis G, et al. Kymatio: Scattering transforms in python. Journal of Machine Learning Research, 2020, 21(60): 1-6.\
+[2] Lee G, Gommers R, Waselewski F, et al. PyWavelets: A Python package for wavelet analysis. Journal of Open Source Software, 2019, 4(36): 1237.
+https://doi.org/10.21105/joss.01237
 
 # Datasets
 1,MNIST handwritten Number dataset, URL: http://yann.lecun.com/exdb/mnist/ \
